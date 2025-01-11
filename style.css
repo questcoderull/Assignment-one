@@ -10,6 +10,12 @@ body {
   font-family: "Fira Sans", serif;
   background-color: #f1f1f3;
 }
+/* .container {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 80px;
+} */
 /* nab var starts */
 header {
   width: 90%;
@@ -239,6 +245,66 @@ nav .button button:hover {
 }
 /* qoute section ends */
 
+/* opinion section starts */
+.opinion_main_cont {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+.opinion_main_cont h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #0e0e0e;
+  margin-bottom: 24px;
+}
+.q_sub_main {
+  padding: 32px;
+  border-radius: 16px;
+  background-color: #fff;
+}
+.questions {
+  background-color: #fff;
+  border: 1px solid gray;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.q_title {
+  background-color: #c6e4d6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+}
+.q_info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+  padding-left: 24px;
+}
+.q_info p {
+  font-weight: 600;
+  color: #0e0e0e;
+}
+.select_option {
+  border-left: 1px solid rgba(14, 14, 14, 0.15);
+  padding: 24px;
+}
+.select_option select {
+  font-size: 16px;
+  font-weight: 500;
+  color: #0e0e0e;
+  padding: 10px 16px;
+  background-color: #c6e4d6;
+  border: 1px solid #0e0e0e;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.select_option select:hover {
+  background-color: #2bbf7a;
+}
+/* opinion section ends */
+
 /* news section starts */
 .news_main_container {
   width: 90%;
@@ -433,6 +499,9 @@ nav .button button:hover {
   cursor: pointer;
   transition: 0.5s;
   margin-inline-start: -4px;
+}
+.sub_main_cont button:hover {
+  background-color: #5490f5;
 }
 /* subscribe section ends */
 
