@@ -238,3 +238,74 @@ nav .button button:hover {
   line-height: 24px;
 }
 /* qoute section ends */
+
+/* news section starts */
+.news_main_container {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+.news_main_container h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #0e0e0e;
+  margin-bottom: 24px;
+}
+.news_main_container p {
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
+  margin-bottom: 32px;
+}
+.news_bx {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  margin-bottom: 24px;
+  padding: 48px;
+  border-radius: 24px;
+  background-color: #fff;
+}
+.news_bx .news_left img {
+  border-radius: 24px;
+}
+
+.news_right h3 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #0e0e0e;
+  margin-bottom: 12px;
+}
+.date-time span {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.7);
+  margin: 12px;
+  margin-left: 0;
+}
+.news_right p {
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
+  margin-bottom: 32px;
+}
+
+.news_right button {
+  padding: 13px 26px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #006a50;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.news_right button:hover {
+  background-color: #5490f5;
+}
+
+.news_box_two {
+  flex-direction: row-reverse;
+}
+/* news section ends */
