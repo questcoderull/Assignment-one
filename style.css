@@ -111,6 +111,12 @@ nav .button button:hover {
   background-color: #fff;
   border: 1px solid rgba(14, 14, 14, 0.15);
   border-radius: 16px;
+  transition: 0.5s;
+}
+.pillars_box:hover {
+  background-color: aquamarine;
+  background-color: #c6e4d6;
+  cursor: pointer;
 }
 .pillars_box img {
   margin-bottom: 24px;
@@ -123,5 +129,82 @@ nav .button button:hover {
 }
 .pillars_box p {
   line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
 }
 /* pillars section ends */
+
+/* vision section starts */
+.vision_main_cont {
+  width: 90%;
+  margin: 0 auto;
+}
+.vision_main_cont h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #0e0e0e;
+  margin-bottom: 24px;
+}
+.vision_main_cont p {
+  line-height: 24px;
+  color: #0e0e0e;
+  margin-bottom: 32px;
+}
+
+/* box styling */
+.vision_box_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+.vision_box {
+  padding: 32px;
+  border-radius: 16px;
+}
+.vision_box img {
+  margin-bottom: 24px;
+}
+.vision_box h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #0e0e0e;
+  margin-bottom: 12px;
+}
+.vision_box p {
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
+}
+.vision_box button {
+  padding: 11px 20px;
+  font-weight: 600;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+}
+.vision_firs_box {
+  background-color: rgba(84, 144, 245, 0.2);
+}
+.vision_firs_box button {
+  background-color: #5490f5;
+}
+.vision_sec_box {
+  background-color: #c6e4d6;
+}
+.vision_sec_box button {
+  background-color: #09a15c;
+}
+.vision_third_box {
+  background-color: #f7ebcf;
+}
+.vision_third_box button {
+  background-color: #ffc239;
+}
+.vision_box button {
+  transition: 0.5s;
+  cursor: pointer;
+}
+.vision_box button:hover {
+  background-color: #006a50;
+}
+/* vision section ends */
