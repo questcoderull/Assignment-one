@@ -208,3 +208,33 @@ nav .button button:hover {
   background-color: #006a50;
 }
 /* vision section ends */
+
+/* qoute section starts */
+.quote_main_cont {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  padding: 25px 24px 48px 24px;
+  margin-bottom: 80px;
+}
+.quote p {
+  line-height: 25px;
+  color: #0e0e0e;
+  margin-bottom: 12px;
+  background-image: url(assets/quote-bg.png);
+  background-repeat: no-repeat;
+  padding-top: 23px;
+}
+.quoter h5 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #0e0e0e;
+  line-height: 24px;
+}
+.quoter p {
+  color: rgba(14, 14, 14, 0.6);
+  line-height: 24px;
+}
+/* qoute section ends */
